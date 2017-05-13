@@ -15,5 +15,7 @@ Instructions for executing the project
 3. Similarly change microserviceurl in obsservice/header class
 4. Export website war file into one tomcat server with (http and 8080) or (https and 8443)
 5. Export obsservice and microservice into other tomcat server with (http 8090) or (https and 8444)
-6. Start the servers and access the web site
-7. WinnerDeclarationJob in the winner package is a java application when run sends email to the winner and the owner of the product.
+6. Install and start MongoDB and create a database named onlineBidding
+7. Install and start Memcached server
+8. Start the servers and access the web site
+9. WinnerDeclarationJob in the winner package is a java application when run sends email to the winner and the owner of the product.
