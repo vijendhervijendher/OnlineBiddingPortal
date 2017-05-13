@@ -1,0 +1,5 @@
+microservice\DBconnection.class
+microservice\readfromdb.class
+microservice\checkavailability.class
+microservice\header.class
+microservice\writetodb.class
