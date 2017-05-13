@@ -10,9 +10,8 @@ Website is built using JSPs and Beans and the purpose is to render the web pages
 Web services are used for all the logic and micro services for CRUD operations on the data base(MongoDB). Both web apps are built using the Jersey frame work.
 
 Instructions for executing the project
-1. Access the zip file from https://drive.google.com/file/d/0B8ZLRYk2pU-tNElVaG1yZzY0dmM/view?usp=sharing
-Changes 2 and 3 are for those who don't want to set up  https protocol in their tomcat servers
-2. Export website war file into eclipse and change website url to port 8080 with http protocol in header class
+1. Access the zip from https://drive.google.com/file/d/0B8ZLRYk2pU-tNElVaG1yZzY0dmM/view?usp=sharing and 01-05-Update 1 folder
+2. Export website war file into eclipse and change website url to port 8080 with http protocol in header class(or you can set up tls/ssl for port 8443)
 3. Similarly change microserviceurl in obsservice/header class
 4. Export website war file into one tomcat server with (http and 8080) or (https and 8443)
 5. Export obsservice and microservice into other tomcat server with (http 8090) or (https and 8444)
